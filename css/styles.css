@@ -384,6 +384,7 @@ ul {
     display: inline-block;
 }
 
-.link-our {
+.link-our, .interval {
     width: calc((100%-48px)/3);
 }
+

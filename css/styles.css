@@ -324,7 +324,7 @@ ul {
 
 .item-link {
     display: flex;
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
@@ -384,7 +384,6 @@ ul {
     display: inline-block;
 }
 
-.link-our, .interval {
-    width: calc((100%-48px)/3);
+.link-our {
+    width: calc((100% - 48px) / 3);
 }
-

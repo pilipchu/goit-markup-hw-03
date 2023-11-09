@@ -250,7 +250,6 @@ color: #2E2F42;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100%-48px)/3);
 }
 
 .portfolio-titel{
@@ -379,4 +378,12 @@ ul {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.second {
+    display: inline-block;
+}
+
+.interval {
+    width: calc((100%-48px)/3);
 }

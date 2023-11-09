@@ -331,10 +331,6 @@ ul {
     gap: 8px;
 }
 
-.link-our {
-    width: calc((100%-48px)/3);
-}
-
 .container a {
     margin-bottom: 16px;
 }

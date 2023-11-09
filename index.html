@@ -17,9 +17,9 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
-      <div class="container-header">
-      <nav>
+    <header class="header">
+      <div class="container">
+      <nav class="nav">
         <a class="title" href="./index.html"
           >Web<span class="titel-logo">Studio</span></a
         >
@@ -48,14 +48,14 @@
     </header>
     <main>
       <section class="first-sector">
-        <div class="container-first-sector">
+        <div class="container">
           <h1 class="head">Effective Solutions for Your Business</h1>
         <button class="button" type="button">Order Service</button>
         </div>
       </section>
-      <section>
-        <div class="container-text">
-        <h2>Text</h2>
+      <section class="second-section">
+        <div class="container">
+        <h2 class="skrin">Text</h2>
         <ul class="item-text">
           <li class="item-link">
             <h3 class="text-work">Strategy</h3>
@@ -89,7 +89,7 @@
       </div>
       </section>
       <section class="section-person">
-        <div class="container-team">
+        <div class="container">
 <h2 class="team">Our Team</h2>
         <ul class="link-team">
           <li class="link-name">
@@ -100,8 +100,10 @@
               width="264"
               height="260"
             />
-            <h3 class="name-person">Mark Guerrero</h3>
+            <div class="people">
+              <h3 class="name-person">Mark Guerrero</h3>
             <p class="job">Product Designer</p>
+          </div>
           </li>
           <li class="link-name">
             <img
@@ -111,8 +113,10 @@
               width="264"
               height="260"
             />
-            <h3 class="name-person">Tom Ford</h3>
+            <div class="people">
+              <h3 class="name-person">Tom Ford</h3>
             <p class="job">Frontend Developer</p>
+            </div>
           </li>
           <li class="link-name">
             <img
@@ -122,8 +126,10 @@
               width="264"
               height="260"
             />
-            <h3 class="name-person">Camila Garcia</h3>
+            <div class="people">
+              <h3 class="name-person">Camila Garcia</h3>
             <p class="job">Marketing</p>
+            </div>
           </li>
           <li class="link-name">
             <img
@@ -133,40 +139,52 @@
               width="264"
               height="260"
             />
-            <h3 class="name-person">Daniel Wilson</h3>
+            <div class="people">
+              <h3 class="name-person">Daniel Wilson</h3>
             <p class="job">UI Designer</p>
+            </div>
           </li>
         </ul>
         </div>
       </section>
       <section class="section-portfolio">
-        <div class="container-portfolio">
+        <div class="container">
 <h2 class="portfolio-our" id="portfolio">Our Portfolio</h2>
         <ul class="link-portfolio">
           <li class="link-our">
             <img src="./images/img5.jpg" alt="photo" width="360" height="300" />
-            <h3 class="portfolio-titel">Banking App</h3>
+            <div class="projekt">
+              <h3 class="portfolio-titel">Banking App</h3>
             <p class="text-portfolio">App</p>
+            </div>
           </li>
           <li class="link-our">
             <img src="./images/img6.jpg" alt="photo" width="360" height="300" />
+            <div class="projekt">
             <h3 class="portfolio-titel">Cashless Payment</h3>
             <p class="text-portfolio">Marketing</p>
+            </div>
           </li>
           <li class="link-our">
             <img src="./images/img7.jpg" alt="photo" width="360" height="300" />
-            <h3 class="portfolio-titel">Meditation App</h3>
+            <div class="projekt">
+              <h3 class="portfolio-titel">Meditation App</h3>
             <p class="text-portfolio">App</p>
+          </div>
           </li>
           <li class="link-our">
             <img src="./images/img8.jpg" alt="photo" width="360" height="300" />
-            <h3 class="portfolio-titel">Taxi Service</h3>
+            <div class="projekt">
+              <h3 class="portfolio-titel">Taxi Service</h3>
             <p class="text-portfolio">Marketing</p>
+          </div>
           </li>
           <li class="link-our">
             <img src="./images/img9.jpg" alt="photo" width="360" height="300" />
+          <div class="projekt">
             <h3 class="portfolio-titel">Screen Illustrations</h3>
             <p class="text-portfolio">Design</p>
+          </div>
           </li>
           <li class="link-our">
             <img
@@ -175,12 +193,13 @@
               width="360"
               height="300"
             />
-            <h3 class="portfolio-titel">Online Courses</h3>
+            <div class="projekt">
+              <h3 class="portfolio-titel">Online Courses</h3>
             <p class="text-portfolio">Marketing</p>
+          </div>
           </li>
         </ul>
         </div>
-        
       </section>
     </main>
     <footer class="footer">
